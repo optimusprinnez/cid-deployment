@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-app
-          image: localhost:5000/cid:latest  # Replace with your Docker image
+          image: 127.0.0.1:5000/cid:latest  # Replace with your Docker image
           ports:
             - containerPort: 1235
 #          env:
