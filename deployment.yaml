@@ -16,9 +16,11 @@ spec:
     spec:
       containers:
         - name: spring-boot-app
-          image: 127.0.0.1:5000/cid:latest  # Replace with your Docker image
+          image: optimusprinnez/cid:latest  # Replace with your Docker image
           ports:
             - containerPort: 1235
 #          env:
 #            - name: SPRING_PROFILES_ACTIVE
 #              value: "prod"  # Add environment variables if needed
+      imagePullSecrets:
+        - name: dockerhub-secret
