@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-app
-          image: optimusprinnez/cid:latest  # Replace with your Docker image
+          image: docker.io/optimusprinnez/cid:lates  # Replace with your Docker image
           ports:
             - containerPort: 1235
 #          env:
