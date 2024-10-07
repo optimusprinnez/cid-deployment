@@ -22,5 +22,5 @@ spec:
 #          env:
 #            - name: SPRING_PROFILES_ACTIVE
 #              value: "prod"  # Add environment variables if needed
-      imagePullSecrets:
-        - name: dockerhub-secret
+#      imagePullSecrets:
+#        - name: dockerhub-secret
